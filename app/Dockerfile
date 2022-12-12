@@ -1,5 +1,5 @@
 FROM node:16.13.0-bullseye-slim
-WORKDIR /usr/src/app
+WORKDIR /app
 COPY package*.json .
 RUN npm i
 COPY . .
